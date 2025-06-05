@@ -58,10 +58,10 @@ const WhyJoin= () => {
     },
   ];
   return (
-    <div className="bg-gradient-to-r from-[#141414] via-[#43192a] to-[#141414] text-white py-8 px-4">
-      <div className="text-white text-[40px] font-bold font-['Nunito'] px-[64px]">Why Join the Global Internship Program (GIP) ?<br /></div>
-      <div className="text-white text-xl font-medium font-['Nunito'] px-[64px]">At Igc, we believe that real-world experience is crucial to academic growth. Our Global Internship Program (GIP) is designed to equip students with industry-relevant skills and prepare them for the global job market. Whether you’re a business student or a budding software developer, the GIP offers hands-on exposure to real-world projects and industry practices across various domains.<br /></div>
-      <div className="text-white text-2xl font-semibold font-['Nunito'] px-[64px] py-[24px]">The GIP provides internships in the following key domains:</div>
+    <div className="bg-gradient-to-r from-[#141414] via-[#43192a] to-[#141414] text-white lg:py-8 lg:px-4">
+      <div className="text-white text-3xl lg:text-[40px] font-bold font-['Nunito'] px-[16px] py-5 lg:px-[64px]">Why Join the Global Internship Program (GIP) ?<br /></div>
+      <div className="text-white text-lg lg:text-xl font-medium font-['Nunito'] px-[16px] py-5 lg:px-[64px]">At Igc, we believe that real-world experience is crucial to academic growth. Our Global Internship Program (GIP) is designed to equip students with industry-relevant skills and prepare them for the global job market. Whether you’re a business student or a budding software developer, the GIP offers hands-on exposure to real-world projects and industry practices across various domains.<br /></div>
+      <div className="text-white hidden md:block text-xl lg:text-2xl font-semibold font-['Nunito'] px-[16px] py-5 lg:px-[64px] lg:py-[24px]">The GIP provides internships in the following key domains:</div>
       {/* Mobile grid */}
      
       {/* Desktop grid */}

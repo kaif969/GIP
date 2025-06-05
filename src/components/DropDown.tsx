@@ -41,9 +41,9 @@ const Dropdown = ({ heading, dropDownData }: DropdownItemProps) => {
                 className={`w-9 h-9 transition-transform duration-200 border-2 border-slate-500 rounded-[20px] ${openIndex === index ? 'transform rotate-180' : ''}`}
               />
             </Collapsible.Trigger>
-            <Collapsible.Content className="mt-2 p-4 bg-[#211827] border border-gray-200 rounded-lg shadow-sm ">
+            <Collapsible.Content className="mt-2 p-4 bg-[#211827] rounded-lg shadow-sm ">
               <div className="flex flex-col lg:flex-row">
-                <div className="flex-grow"><div className="dropdown-content text-[18px]" dangerouslySetInnerHTML={{ __html: data.content }} />// This renders the HTML content
+                <div className="flex-grow"><div className="dropdown-content text-[18px]" dangerouslySetInnerHTML={{ __html: data.content }} />
                 </div>
               </div>
             </Collapsible.Content>
