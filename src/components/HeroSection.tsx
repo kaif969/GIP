@@ -4,7 +4,7 @@ interface HeroSectionProps {
   imageSrc: string,
   title: string,
   subtitle: string,
-  body1: string,
+  body1?: string,
   body2?: string,
   body3?: string
 }

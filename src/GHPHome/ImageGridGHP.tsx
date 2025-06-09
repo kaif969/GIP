@@ -1,32 +1,24 @@
-import ProgramDuration from "../assets/Program Duration .png";
-import WhoShouldApply from "../assets/Who Should Apply.png";
-import HowToApply from "../assets/How to Apply .png";
+import WhoShouldApply from "../assets/Who Should Apply_ghp.jpg"
+import HowtoApply from "../assets/How to Apply_ghp.jpg"
+
 
 const allData = [
   {
-    subtitle: "Program Duration",
-    description:
-      "The Global Internship Program (GIP) is a remote, flexible internship lasting 3 to 6 months, allowing you to balance academic commitments while gaining career-ready skills. You’ll work on impactful projects, collaborate with global teams, and build a strong portfolio to stand out in today’s competitive job market.",
-    image: ProgramDuration,
-  },
-  {
     subtitle: "Who Should Apply?",
-    description:
-      "We are looking for motivated, passionate students eager to learn and grow. If you're studying business, technology, data science, or other emerging fields, the GIP at Implica Global Co. is the perfect opportunity to gain hands-on experience while advancing your career.",
+    description: "We are looking for ambitious, motivated, and innovative graduates from partner universities who are ready to take on new challenges and make a real-world impact. If you are passionate about driving change, learning from industry experts, and growing within a global organization, the Graduate Hiring Program is the perfect opportunity to advance your career.",
     image: WhoShouldApply,
   },
   {
     subtitle: "How to Apply",
-    description:
-      "Are you ready to take the next step in your career and gain meaningful experience? Apply for the Global Internship Program (GIP) today!",
-    image: HowToApply,
+    description: "Ready to start your career with Implica Global Corporation? Apply to our Graduate Hiring Program today and take the first step towards a successful, rewarding career in a leading global company.",
+    image: HowtoApply,
   },
-];
+]
 
-function ImageGrid() {
+function ImageGridGHP() {
   return (
     <>
-      <div className="flex flex-col bg-black text-white">
+      <div className="flex flex-col bg-gradient-to-l from-slate-600 to-slate-900 text-white">
         {allData.map((item, index) => (
           <div
             key={index}
@@ -42,7 +34,7 @@ function ImageGrid() {
                 <p className="text-xl lg:text-[28px] font-normal font-sans max-w-[566px] pb-4">
                   {item.description}
                 </p>
-                {index === 2 && (
+                {index === 1 && (
                   <button className="mt-4 px-16 py-3 bg-[#683FEA] text-white font-semibold rounded-3xl hover:bg-[#7051d8af] transition-all">
                     Apply Now
                   </button>
@@ -63,4 +55,4 @@ function ImageGrid() {
     </>
   );
 }
-export default ImageGrid;
+export default ImageGridGHP;

@@ -21,7 +21,7 @@ const HeroSectionData : HeroSectionProps[] =[
     }
 ] 
 
-function HeroSectionHome() {
+function HeroSectionGIP() {
   return (
     <div>
         {HeroSectionData.map(item => (
@@ -31,4 +31,4 @@ function HeroSectionHome() {
   )
 }
 
-export default HeroSectionHome
+export default HeroSectionGIP

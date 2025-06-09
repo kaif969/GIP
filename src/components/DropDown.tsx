@@ -9,6 +9,7 @@ interface DropdownItemProps {
   dropDownData: Array<{
     title: string
     content: string
+    imageSrc?: string
   }>
 }
 
@@ -43,6 +44,9 @@ const Dropdown = ({ heading, dropDownData }: DropdownItemProps) => {
             </Collapsible.Trigger>
             <Collapsible.Content className="mt-2 p-4 bg-[#211827] rounded-lg shadow-sm ">
               <div className="flex flex-col lg:flex-row">
+                 <div className="flex-shrink-0  lg:mr-[16px] ">
+                    <img src={data.imageSrc} alt=""  className="flex text-center rounded-lg max-w-[320px]" />
+                  </div>
                 <div className="flex-grow"><div className="dropdown-content text-[18px]" dangerouslySetInnerHTML={{ __html: data.content }} />
                 </div>
               </div>

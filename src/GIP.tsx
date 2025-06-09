@@ -1,18 +1,14 @@
-import HeroSectionHome from './GIPHome/HeroSectionHome'
+import HeroSectionGIP from './GIPHome/HeroSectionGIP'
 import WhyJoin from './GIPHome/WhyJoin'
 import SliderSection from './GIPHome/SliderSection'
 import ImageGrid from './GIPHome/ImageGrid'
 import Dropdown from './GIPHome/DropdownHome'
 import ContactHome from './GIPHome/ContactHome'
 
-import './App.css'
-
-function App() {
-
-
+function GIP() {
   return (
     <>
-    <HeroSectionHome/>
+    <HeroSectionGIP/>
     <WhyJoin/>
     <SliderSection/>
     <ImageGrid/>
@@ -22,4 +18,4 @@ function App() {
   )
 }
 
-export default App
+export default GIP
