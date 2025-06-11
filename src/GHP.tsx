@@ -3,7 +3,7 @@ import FAQghp from "./GHPHome/FAQSection"
 import HeroSectionGHP from "./GHPHome/HeroSectionGHP"
 import ImageGridGHP from "./GHPHome/ImageGridGHP"
 import SliderSectionGHP from "./GHPHome/SliderSectionGHP"
-
+import ContactGHP from "./GHPHome/ContactGHP"
 
 
 function GHP() {
@@ -14,6 +14,7 @@ function GHP() {
     <SliderSectionGHP/>
     <ImageGridGHP/>
     <FAQghp/>
+    <ContactGHP/>
     </>
   )
 }

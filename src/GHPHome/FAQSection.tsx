@@ -33,13 +33,11 @@ const dropdownData: DropdownItemProps[] = [
 
   export default function FAQghp() {
     const basePath = ''
-    const dropDownDataWithLinks = dropdownData.map(item => ({
-      ...item,
-      readMoreLink: item.title.toLowerCase().includes('')? item.readMoreLink : `${basePath}/${item.readMoreLink}`,
+    const dropDownDataWithLinks = dropdownData.map(item => ({...item,readMoreLink: item.title.toLowerCase().includes('')? item.readMoreLink : `${basePath}/${item.readMoreLink}`,
     }))
   return (
-    <div className="text-white space-y-4 py-[20px] bg-[#211827]">
-        <Dropdown heading="Frequently Asked Questions (FAQs)" dropDownData={dropDownDataWithLinks}/>
+    <div className="space-y-4 py-[20px] bg-[#211827] text-white">
+        <Dropdown heading="Frequently Asked Questions (FAQs)" dropDownData={dropDownDataWithLinks}  />
     </div>
   )
 }

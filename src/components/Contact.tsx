@@ -1,8 +1,8 @@
 // Code to display the black section on the page
 
 interface ContactUsProps {
-  title: string;
-  body: string
+  title?: string;
+  body?: string
 }
 
 const ContactUs = ({ title, body }: ContactUsProps) => {
